@@ -4,6 +4,7 @@ import Link from "./components/Link";
 import Content from "./components/Content";
 import Heading from "./components/Heading";
 import Subheading from "./components/Subheading";
+import Resume from "./assets/Tech Resume-Brennon Allen.pdf";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Heading text="Downloads" />
         <div className="flex-center-row">
           {/* <Link text="Cover Letter" /> */}
-          <Link text="Resume" link={"src/assets/Tech Resume-Brennon Allen.pdf"} file={"Brennon Allen's Tech Resume"}/>
+          <Link text="Resume" link={Resume} file={"Brennon Allen's Tech Resume"}/>
         </div>
       </div>
     </div>
