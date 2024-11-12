@@ -1,0 +1,109 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+h1 {
+    color: black;
+}
+
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flex-center-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.image-box {
+    width: fit-content;
+    top: 50px;
+    left: 0;
+    background-color: rgb(2, 24, 94);
+    border: 3px solid rgb(8, 7, 54);
+    border-bottom: 10px solid rgb(0, 69, 188);
+    border-radius: 60px;
+    padding: 10px;
+    right: 0;
+}
+.image {
+    border-radius: 50px;
+    width: 300px;
+    height: auto;
+    z-index: 1000;
+}
+
+
+.link-box {
+    width: 100%;
+}
+
+.link-box button {
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 24, 94);
+    border-bottom: 5px solid rgb(62, 133, 255);
+    border-top: 2px solid rgb(0, 69, 188);
+    margin: 5px;
+    border-radius: 25px;
+    
+    cursor: pointer;
+    width: 140px;
+    z-index: 1000;
+    height: 40px;
+}
+
+.link-box button:hover {
+    font-size: 1em;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 133, 255);
+    border-bottom: 5px solid rgb(0, 69, 188);
+    border-top: 2px solid rgb(62, 133, 255);
+    margin: 5px;
+    cursor: pointer;
+    width: 140px;
+    z-index: 1000;
+    height: 40px;
+}
+
+
+
+.content {
+    width: 100%;
+    height: 150px;
+    z-index: -10000;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(6, 9, 53, 1);
+}
+
+.heading {
+    width: 100%;
+    height: 35px;
+    color:  rgb(9, 20, 80);
+    margin: 10px;
+}
+
+.subheading {
+    width: 100%;
+    margin: 3px;
+    height: 25px;
+    color: rgb(9, 20, 80);
+}
+
+.small-margin {
+    margin: 20px;
+}
