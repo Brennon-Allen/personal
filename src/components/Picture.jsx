@@ -1,3 +1,4 @@
+import "../assets/pro-pic.png"
 
 function Picture() {
   return (
