@@ -37,7 +37,7 @@ h1 {
 .image {
     border-radius: 50px;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     z-index: 1000;
 }
 
