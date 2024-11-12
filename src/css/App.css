@@ -24,17 +24,15 @@ h1 {
 
 
 .image-box {
-    width: 150px;
+    width: 100%;
     max-width: 150px;
     height: fit-content;
     top: 20px;
-    left: 0;
     background-color: rgb(2, 24, 94);
     border: 3px solid rgb(8, 7, 54);
     border-bottom: 7px solid rgb(0, 69, 188);
     border-radius: 60px;
     padding: 5px;
-    right: 0;
 }
 .image {
     border-radius: 50px;
