@@ -70,6 +70,7 @@ h1 {
     border-bottom: 5px solid rgb(0, 69, 188);
     border-top: 2px solid rgb(62, 133, 255);
     margin: 5px;
+    margin-top: -25px;
     cursor: pointer;
     width: 140px;
     z-index: 1000;
