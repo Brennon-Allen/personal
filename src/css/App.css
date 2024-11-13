@@ -24,14 +24,13 @@ h1 {
 
 
 .image-box {
-    width: 190px;
+    width: auto%;
     height: 190px;
     top: 20px;
     background-color: rgb(2, 24, 94);
     border: 3px solid rgb(8, 7, 54);
     border-bottom: 7px solid rgb(0, 69, 188);
     border-radius: 50%;
-    padding: 5px;
 }
 .image {
     border-radius: 50px;
